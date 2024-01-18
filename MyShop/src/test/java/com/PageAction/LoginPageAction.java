@@ -12,7 +12,7 @@ public class LoginPageAction {
 		this.objLogin=new LoginPageLocators();
 		PageFactory.initElements(HelperClass.getDriver(), objLogin);
 	}
-	
+	//Set Username
 	public void setUsername(String username) {
 		objLogin.username.sendKeys(username);
 	}
